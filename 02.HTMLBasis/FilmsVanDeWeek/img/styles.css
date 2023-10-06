@@ -1,0 +1,40 @@
+html {
+   background-color: #ddd;
+}
+
+body {
+   background-color: #ddd;
+   font-family: Roboto, sans-serif;
+   padding: 20px;
+}
+
+table {
+   border-collapse: collapse;
+   box-shadow: #999 5px 5px 5px;
+}
+
+td, 
+th {
+   background-color: #e7e7e7;
+   border: solid #ccc 1px;
+   padding: 0.2em 0.5em;
+}
+
+td {
+   background-color: #fff;
+   text-align: center;
+   white-space: nowrap;
+   width: 3em;
+}
+
+tbody td:first-child img {
+   width: 1.5em;
+}
+
+tbody td:first-child + td {
+   text-align: left;
+}
+
+td:empty {
+   background-color: darkgrey;
+}
