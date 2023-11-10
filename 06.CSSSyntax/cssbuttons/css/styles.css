@@ -1,0 +1,41 @@
+.btnGreen {
+    background-color: green;
+    border-radius: 8px;
+    color: white;
+    display: inline;
+    font-size: 24px;
+    padding: 15px;
+    text-decoration: white;
+    text-transform: uppercase;
+}
+
+.btnGreen::after {
+    content: "→";
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.btnFav {
+    background-color: beige;
+    border-radius: 64px;
+    color: red;
+    display: inline-block;
+    font-size: 48px;
+    height: 64px;
+    text-align: center;
+    width: 64px;
+}
+
+.btnTiktok {
+    background-color: grey;
+    background-image:s;
+    background-repeat: ;
+    background-position-x: ;
+    background-position-y: ;
+    background-size: ;
+    color: ;
+    display: ;
+    font-size: ;
+    padding: ;
+    text-decoration: ;²
+}
