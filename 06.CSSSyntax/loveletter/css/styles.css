@@ -1,87 +1,104 @@
 /* deel 1: start CSS */
 
 * {
-    margin: 0;
-    padding: 0;
- }
- 
- html {
-    background-color: #fff;
- }
- 
- body {
-    border: 10px solid white;
-    height: 600px;
-    margin: 20px auto;
-    max-width: 300px;
-    padding: 40px 100px;
- }
- 
- h1 {
-    margin-top: 30px;
- }
- 
- main {
-    padding-top: 30px;
- }
- 
- mark {
-    background-color: transparent;
- }
- 
- footer {
-    margin-top: 35px;
- }
- 
- /* deel 2: achtergronden */
- html {
-    background-image: url(img/tile.png);
- }
- body {
-    background-image: url(img/bg.png);
-    background-size: 100% 100% ;
- }
- 
- /* deel 3: lettertypes */
- body {
-    font-family: Arial;
-    font-family: 'Indie Flower', cursive;
- }
- h1 {
-    font-family: 'Caveat', cursive;
- }
-
- /* deel 4: tekstopmaak */
- h1 {
-    font-size: 48px;
-    font-weight: normal;
-    line-height: 1.70;
-    letter-spacing: 1.5px;
-
- }
- h1 span{
-    color: red;
-    font-size: 28px;
- }
- p {
-    font-size: 28px;
-    color: darkblue;
-    text-align: left;
-    line-height: 1.25;
-    letter-spacing: 1px;
+   margin: 0;
+   padding: 0;
 }
+
+body {
+   border: 10px solid white;
+   height: 600px;
+   margin: 20px auto;
+   max-width: 300px;
+   padding: 40px 100px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+   background-color: #fff;
+}
+
+h1 {
+   margin-top: 30px;
+}
+
+main {
+   padding-top: 30px;
+}
+
+mark {
+   background-color: transparent;
+}
+
+footer {
+   margin-top: 35px;
+}
+
+/* deel 2: achtergronden */
+body {
+   background-image: url(img/bg.png);
+   background-size: 100% 100%;
+}
+
+html {
+   background-image: url(img/tile.png);
+}
+
+/* deel 3: lettertypes */
+
+
+body {
+   font-family: Arial;
+
+}
+
+h1 {
+   font-family: 'Caveat', cursive, sans-serif;
+}
+
+main {
+   font-family: 'Indie Flower', cursive, sans-serif;
+}
+
+/* deel 4: tekstopmaak */
+h1 {
+   font-size: 48px;
+   font-weight: normal;
+   line-height: 1.70;
+   letter-spacing: 1.5px;
+
+}
+
+h1 span {
+   color: red;
+   font-size: 28px;
+}
+
+p {
+   font-size: 28px;
+   color: darkblue;
+   text-align: left;
+   line-height: 1.25;
+   letter-spacing: 1px;
+}
+
 p.salute {
-    text-align: right;
+   text-align: right;
 }
+
 p.date {
-    font-size: 15px;
-    text-align: right;
+   font-size: 15px;
+   text-align: right;
 }
 
- /* deel 5: schaduwen */
- p mark {
-    text-transform: uppercase;
-    text-shadow: 2px 2px 13px red;
-    font-weight: bold;
+/* deel 5: schaduwen */
+html {
+   box-shadow: grey;
+}
 
- }
+p mark {
+   text-transform: uppercase;
+   text-shadow: 2px 2px 13px red;
+   font-weight: bold;
+
+}

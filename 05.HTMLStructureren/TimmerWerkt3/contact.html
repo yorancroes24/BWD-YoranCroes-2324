@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <a href="home.html"><img src="images/logo.svg" alt="logo timmerwerkt"> </a>
+        <a href="index.html"><img src="images/logo.svg" alt="logo timmerwerkt"> </a>
         <nav>
             <ul>
                 <li><a href="index.html">home</a></li>
@@ -23,7 +23,7 @@
         </nav>
     </header>
     <main>
-        <section>
+        <div>
             <h1>Contacteer Timmerwerkt</h1>
             <p>il je meer informatie over wat we doen? Of een vrijblijvende offerte voor je volgende meubelproject?</p>
             <br>
@@ -39,13 +39,15 @@
                 <a href="tel:+32/494.40.47.10">+32/494.40.47.10</a><br>
                 <a href="mailto:info@timmerwerkt.be">info@timmerwerkt.be</a>
             </address>
-        </section>
-        <section>
-            <form>
-                <h2>Contactformulier</h2>
+        </div>
+        <div>
 
+            <div>
+                <h2>Contactformulier</h2>
+            </div>
+            <form>
                 <label for="question">je vraag *</label><br>
-                <textarea id="question" cols="30" rows="10" required></textarea>
+                <textarea id="question" cols="30" rows="10" required autofocus></textarea>
                 <br>
                 <label for="fotoduidelijk">Verduidelijk eventueel met enkele foto's</label><br>
                 <input type="file" id="fotoduidelijk" multiple>
@@ -67,7 +69,7 @@
                 <br>
                 <input type="submit" value="verzenden">
             </form>
-        </section>
+        </div>
         <aside>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.777393892708!2d3.6664058999999996!3d51.094115599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c37039107becbd%3A0x2c3da14100231de6!2sDoornstraat%2090%2C%209940%20Evergem!5e0!3m2!1snl!2sbe!4v1697999386034!5m2!1snl!2sbe"
@@ -81,17 +83,17 @@
             <p>Wil je graag op de hoogte blijven over Timmerwerkt? We houden zelf niet van spam, dus het zal maar voor
                 héél
                 af en toe zijn.</p>
-            <input type="email" placeholder="e-mail adres">
+            <input type="email" placeholder="e-mail adres" required>
             <button type="submit">inschrijven</button>
         </form>
         <br>
-        <address>
+        <div>
             TIMMERWERKT VZW<br>
             Doornstraat 90<br>
             9940 Evergem<br>
             <a href="mailto:info@timmerwerkt.site">info@timmerwerkt.site</a><br>
             +32 456 61 85 05
-        </address>
+        </div>
 
         <ul>
             <li><a href=""><span class="fa-brands fa-facebook-f"></span></a></li>

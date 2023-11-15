@@ -1,12 +1,13 @@
 .btnGreen {
     background-color: green;
-    border-radius: 8px;
+
     color: white;
     display: inline;
     font-size: 24px;
     padding: 15px;
     text-decoration: white;
     text-transform: uppercase;
+    transition: color 0.5s;
 }
 
 .btnGreen::after {
@@ -15,27 +16,46 @@
     margin-left: 10px;
 }
 
+.btnGreen:hover {
+    color: darkgray;
+}
+
 .btnFav {
     background-color: beige;
     border-radius: 64px;
-    color: red;
+    color: darkred;
     display: inline-block;
     font-size: 48px;
     height: 64px;
     text-align: center;
     width: 64px;
+    text-decoration: dotted;
+    transition: color 2s;
+    transition: font-size 2s;
+}
+
+.btnFav:hover {
+    color: red;
+    font-size: 64px;
 }
 
 .btnTiktok {
-    background-color: grey;
-    background-image:s;
-    background-repeat: ;
-    background-position-x: ;
-    background-position-y: ;
-    background-size: ;
-    color: ;
-    display: ;
-    font-size: ;
-    padding: ;
-    text-decoration: ;²
+    background-color: beige;
+    background-image: url(../img/logo-tiktok.png);
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: center;
+    background-size: 15%;
+    color: darkgray;
+    display: inline-block;
+    font-size: 18px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: right;
+    width: 8%;
+    transition: background-size 1s;
+}
+.btnTiktok:hover {
+    background-size: 30%;
+    text-decoration: underline;
 }
